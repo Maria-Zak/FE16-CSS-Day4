@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: grey;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+li {
+  color: pink;
+  background-color: grey;
+  padding: 10px;
+}
+
+.background-image {
+  position: relative;
+  background-image: url(https://www.cheatsheet.com/wp-content/uploads/2021/04/kurt-cobain-1200x807.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.background-title {
+  position: absolute;
+  padding: 100px;
+  margin: 100px;
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+  footer {
+    background-color: deepskyblue;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  footer {
+    background-color: darksalmon;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
